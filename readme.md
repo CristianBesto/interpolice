@@ -29,4 +29,27 @@ vanilla js
 - git remote add origin  https://github.com/CristianBesto/interpolice.git
 - hacemos la primer actualizacion local y remota:
 loca: git commit . -m "Inicio del proyecto"
-remota: git push -u origin main
+remota: git push -u origin master
+- revision del package.json: verificar las dependencias
+- modificamos el package.json para ejecucion del proyecto:
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+
+## CODIFICACION DEL PROYECTO
+
+-Crear el archivo principal: index.js
+-Corremos el servidor en la consola: npm run dev
+-Configurar los plugins : nodemon, cors, hacer la primera prueba npm run dev(modo desarrollador), npm start (modo produccion)
+
+## Creacion del modulo conexion a la base de datos
+
+-Importamos la libreria mysql2 y hacemos la conexion a la base de datos de acuerdo al ejmplo
+
+
+
+
+
+## codificcacion del modulo ciudadano
+
+## NOTAS
+-Para correr el servidor: npm run dev === parado en el back del proyecto
