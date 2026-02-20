@@ -6,3 +6,4 @@ DB_PASSWORD=''
 DB_BASE=interpolice
 DB_PORT=3306
 APP_PORT=3000
+node_modules/
